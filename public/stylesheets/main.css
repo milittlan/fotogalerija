@@ -1,0 +1,64 @@
+html {
+    height: 100%;
+    width: 100%;
+}
+
+table {
+    margin-bottom: 40px;
+}
+
+th,
+td {
+    width: 20%;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background: #FFFFFF;
+    font: 13px/15px Verdana,Arial,Helvetica,sans-serif;
+}
+#header,
+#footer {
+    width: 100%;
+    clear: both;
+    text-align: center;
+    padding: 50px 0;
+    background: #007bff;
+    color:#fff;
+    font-size: 24px;
+    line-height: 28px;
+}
+
+.subheader {
+    border-bottom: 1px solid #000;
+    margin-bottom:30px;
+    text-align: center;
+}
+
+#main {
+    padding: 50px 0;
+}
+
+.back-button {
+    float: right;
+}
+
+.admin-top-bar {
+    padding: 10px 0;
+    overflow: hidden;
+    background: #195bc4;
+}
+
+.admin-top-bar li {
+    float: right;
+    list-style: none;
+    margin-right: 20px;
+}
+
+.admin-top-bar li a {
+    color:#fff;
+}
